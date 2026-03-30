@@ -9,6 +9,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Steps from "./Component/Steps";
 import Pricing from "./Component/Pricing";
+import Last from "./Component/Last";
+import Footer from "./Component/Footer";
 
 function App() {
 
@@ -54,9 +56,13 @@ function App() {
       </Suspense>
       <Steps></Steps>
       <Pricing></Pricing>
+      <Last></Last>
+       <Footer></Footer> 
+      
 
      
       <ToastContainer position="top-right" autoClose={2000} />
+      
     </>
   );
 }
