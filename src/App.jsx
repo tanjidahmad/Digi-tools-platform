@@ -7,6 +7,8 @@ import Products from "./Component/Products";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Steps from "./Component/Steps";
+import Pricing from "./Component/Pricing";
 
 function App() {
 
@@ -50,6 +52,8 @@ function App() {
           handleCheckout={handleCheckout}
         />
       </Suspense>
+      <Steps></Steps>
+      <Pricing></Pricing>
 
      
       <ToastContainer position="top-right" autoClose={2000} />
