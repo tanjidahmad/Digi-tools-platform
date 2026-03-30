@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes instantly",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "/icons/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Image Generator",
+    "description": "Generate images from text",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["HD images", "Fast rendering", "Custom styles"],
+    "icon": "/icons/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Chat Assistant",
+    "description": "Smart chatbot for your business",
+    "price": 39,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["24/7 support", "Custom replies", "API integration"],
+    "icon": "/icons/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Code Generator",
+    "description": "Generate code instantly",
+    "price": 49,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Multi-language", "Bug fixing", "Auto suggestions"],
+    "icon": "/icons/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Video Editor",
+    "description": "Edit videos with AI",
+    "price": 59,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Auto cut", "Transitions", "Export HD"],
+    "icon": "/icons/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Music Generator",
+    "description": "Create music tracks",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Beat maker", "Auto melody", "MP3 export"],
+    "icon": "/icons/writing_2327400 1.png"
+  }
+ 
+  
+]
