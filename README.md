@@ -1,16 +1,19 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DigiTools
 
-Currently, two official plugins are available:
+## 📌 Description
+DigiTools is a responsive AI tools marketplace web application where users can browse a collection of digital products (like AI resume builders, image generators, chat assistants, etc.), view detailed information, and add items to a shopping cart. The app includes a dynamic cart system with real-time updates, allowing users to add, remove, and checkout products easily. It also features tab-based navigation between Products and Cart, interactive UI components, and toast notifications to give instant feedback on user actions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## ⚙️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js  
+- Tailwind CSS  
+- DaisyUI  
+- JavaScript (ES6+)  
+- React-Toastify  
+## Features
+1. Add to cart and remove functionality with real-time updates  
+2. Toggle between Products and Cart sections  
+3. Toast notifications for add, remove, and checkout actions
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
