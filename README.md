@@ -11,7 +11,8 @@ DigiTools is a responsive AI tools marketplace web application where users can b
 - Tailwind CSS  
 - DaisyUI  
 - JavaScript (ES6+)  
-- React-Toastify  
+- React-Toastify 
+- JSON (for product data) 
 ## Features
 1. Add to cart and remove functionality with real-time updates  
 2. Toggle between Products and Cart sections  
