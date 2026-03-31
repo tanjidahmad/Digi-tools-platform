@@ -4,7 +4,7 @@ const Cart = ({ cart, handleRemove, handleCheckout }) => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   if (cart.length === 0) {
-    return <p className="text-center">Cart is empty 🛒</p>;
+    return <p className="text-center">Cart is Empty </p>;
   }
 
   return (
