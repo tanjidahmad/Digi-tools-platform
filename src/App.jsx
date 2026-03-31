@@ -19,15 +19,21 @@ function App() {
   const [activeTab, setActiveTab] = useState("products");
 
   
-  const handleAddToCart = (product) => {
-    setCart([...cart, product]);
-    toast.success("Added to cart ✅");
-  };
+ const handleAddToCart = (product) => {
+  const exists = cart.find(item => item.id === product.id);
 
+  if (exists) {
+    toast.warning("Already added ⚠️");
+    return;
+  }
+
+  setCart([...cart, product]);
+  toast.success("Added to cart @");
+};
  
   const handleRemove = (id) => {
     setCart(cart.filter(item => item.id !== id));
-    toast.error("Removed from cart ❌");
+    toast.error("Removed from cart X");
   };
 
   
