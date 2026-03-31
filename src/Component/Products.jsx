@@ -54,11 +54,13 @@ const Products = ({
 
       
       {activeTab === "products" ? (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div 
+        className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map(product => (
             <Card
               key={product.id}
               product={product}
+              cart={cart}
               handleAddToCart={handleAddToCart}
             />
           ))}

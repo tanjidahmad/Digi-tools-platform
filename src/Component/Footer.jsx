@@ -52,22 +52,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social */}
-        {/* <div>
-          <h3 className="text-white font-semibold mb-3">Social Links</h3> */}
-
-          {/* <div className="flex gap-3"> */}
-            {/* <div className="bg-gray-800 p-2 rounded-full">
-              <Youtube className="w-4 h-4 text-white" />
-            </div> */}
-            {/* <div className="bg-gray-800 p-2 rounded-full">
-              <FaFacebook className="w-4 h-4 text-white" />
-            </div> */}
-            {/* <div className="bg-gray-800 p-2 rounded-full">
-              <Twitter className="w-4 h-4 text-white" />
-            </div> */}
-          {/* </div> */}
-        {/* </div> */}
+        
 
       </div>
 

@@ -23,7 +23,7 @@ function App() {
   const exists = cart.find(item => item.id === product.id);
 
   if (exists) {
-    toast.warning("Already added ⚠️");
+    toast.warning("Already added ");
     return;
   }
 
@@ -39,7 +39,7 @@ function App() {
   
   const handleCheckout = () => {
     setCart([]);
-    toast.info("Checkout complete 🎉");
+    toast.info("Checkout complete ");
   };
 
   return (

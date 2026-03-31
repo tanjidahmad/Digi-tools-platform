@@ -1,6 +1,9 @@
 import { Check } from "lucide-react";
+import { useState } from "react";
 
-const Card = ({ product, handleAddToCart }) => {
+
+    const Card = ({ product, handleAddToCart }) => {
+  const [added, setAdded] = useState(false);
   return (
     <div className="border rounded-xl p-5 shadow-sm hover:shadow-md transition">
 
@@ -34,12 +37,19 @@ const Card = ({ product, handleAddToCart }) => {
         ))}
       </ul>
 
-      <button
-        onClick={() => handleAddToCart(product)}
-        className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-2 rounded-full"
-      >
-        Buy Now
-      </button>
+    <button
+  onClick={() => {
+    handleAddToCart(product);
+    setAdded(true);
+  }}
+  className={`w-full py-2 rounded-full font-medium transition-all duration-300
+    ${added 
+      ? "bg-green-500 text-white cursor-not-allowed" 
+      : "bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:opacity-90"
+    }`}
+>
+  {added ? "Added " : "Buy Now"}
+</button>
     </div>
   );
 };
