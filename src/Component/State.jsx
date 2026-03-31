@@ -1,4 +1,4 @@
-const Stats = () => {
+const State = () => {
   return (
     <div className="bg-gradient-to-r from-indigo-600 to-purple-600 py-12">
       
@@ -27,4 +27,4 @@ const Stats = () => {
   );
 };
 
-export default Stats;
+export default State;
