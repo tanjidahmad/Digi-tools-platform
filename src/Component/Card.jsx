@@ -10,9 +10,21 @@ import { useState } from "react";
       <div className="flex justify-between items-center mb-4">
         <img src={product.icon} className="w-10" />
 
-        <span className="text-xs bg-orange-100 text-orange-500 px-2 py-1 rounded-full">
-          {product.tag}
-        </span>
+        <span
+  className={`text-xs px-2 py-1 rounded-full
+    ${
+      product.tagType === "popular"
+        ? "bg-blue-100 text-blue-500"
+        : product.tagType === "best"
+        ? "bg-orange-100 text-orange-500"
+        : product.tagType === "new"
+        ? "bg-green-100 text-green-500"
+        : "bg-gray-100 text-gray-500"
+    }
+  `}
+>
+  {product.tag}
+</span>
       </div>
 
       <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
