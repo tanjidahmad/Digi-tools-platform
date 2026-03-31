@@ -52,7 +52,7 @@ const NavBar = ({ cartCount }) => {
           </div>
 
           
-          <button className="hidden md:block text-gray-600 hover:text-purple-600 transition">
+          <button className="  text-gray-600 hover:text-purple-600 transition">
             Login
           </button>
 

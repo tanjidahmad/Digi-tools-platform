@@ -22,6 +22,9 @@ const Products = ({
       
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold">Premium Digital Tools</h2>
+       <p className="text-gray-500 mt-3 max-w-xl mx-auto">
+  Choose from our curated collection of premium digital products designed to boost your productivity and creativity.
+</p>
 
         <div className="flex justify-center mt-6">
           <div className="bg-gray-100 rounded-full p-1 flex">

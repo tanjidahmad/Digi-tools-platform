@@ -44,7 +44,7 @@ const Pricing = () => {
         <div className="relative rounded-xl p-6 text-white bg-gradient-to-r from-indigo-600 to-purple-600 shadow-lg">
 
          
-          <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-300 text-black text-xs px-3 py-1 rounded-full">
+          <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-200 text-black text-xs px-3 py-1 rounded-full">
             Most Popular
           </span>
 

@@ -24,7 +24,7 @@ const Banner = () => {
 
           <p className="py-6 text-gray-500">
             Access premium AI tools, design assets, templates, and productivity
-            software—all in one place. Start creating faster today.
+            software—all in one place. Start creating faster today. Explore Products.
           </p>
 
           
